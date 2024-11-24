@@ -53,6 +53,7 @@
   display: flex;
   justify-content: space-around;
   flex-wrap: wrap;  
+  max-width: 200px;
 }
 
 .imagem1, .imagem2, .imagem3 {
@@ -85,6 +86,7 @@
   justify-self: center;
   align-items: center;
   flex-wrap: wrap;
+  background-color: #05e84b;
 }
 
 .galeriacontainer {
