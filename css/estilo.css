@@ -1,4 +1,6 @@
-
+.body{
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
 .container {
   background-color: #05e84b;
   display: flex;
@@ -10,11 +12,10 @@
 }
 
 .nome {
-  font-size: 48px;
-  color: black;
-  justify-self: center;
-  background-color: #05e84b;
-  
+    font-size: 48px; color: black;
+    max-width: 100%;
+    justify-content: center;
+    background-color: #05e84b  
 }
 
 .logo {
@@ -51,9 +52,7 @@
 .imagens {
   display: flex;
   justify-content: space-around;
-  flex-wrap: wrap;
-
-  
+  flex-wrap: wrap;  
 }
 
 .imagem1, .imagem2, .imagem3 {
@@ -99,15 +98,17 @@
 
 .h2{
   font-size: 30px;
+  color: black;
   justify-self: center;
   align-self: center;
+  
 }
-.item1, .item2, .item3 {
+.item1, .item2, .item3,.item4, .item5, .item6{
   justify-self: center;
+  max-width: 200px;
   margin-left: 5px;
   border-radius: 10px;
 }
-
 .gridgaleria {
   grid-template-columns: 1fr; 
   padding-left: 50px;
@@ -149,33 +150,9 @@
   box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
 }
 
-.formulario label {
-  margin-bottom: 5px;
-}
-
-.formulario input, .formulario button {
-  padding: 10px;
-  margin-bottom: 10px;
-  border: 1px solid #ccc;
-  border-radius: 5px;
-}
-
-.formulario button {
-  background-color: #05e84b;
-  color: white;
-  cursor: pointer;
-  border: none;
-}
-
-.formulario button:hover {
-  background-color: #04c73f;
-}
-
-
 .h3 {
   font-size: 16px;
 }
-
 .rodape {
   justify-content: center;
   background-color: #05e84b;
@@ -197,11 +174,9 @@
   .titulo1 {
     font-size: 18px;
   }
-  .menu {
- display: flex;
-
-}
-
+  .nome{
+    width: 100%;
+  }
   .texto {
     font-size: 14px;
     padding: 10px;
@@ -244,6 +219,4 @@
     width: 120px;
     height: 120px;
   }
-
-
 }
