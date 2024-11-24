@@ -88,21 +88,16 @@
   background-color: #05e84b;
 }
 
+
 .galeriacontainer {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); 
+  grid-template-columns:1fr 1fr 1fr; 
   gap: 20px;
   padding: 10px;
   justify-content: center;
 }
 
-.h2{
-  font-size: 30px;
-  color: black;
-  justify-self: center;
-  align-self: center;
-  
-}
+
 .item1, .item2, .item3,.item4, .item5, .item6{
   justify-self: center;
   max-width: 200px;
